@@ -1,0 +1,55 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 16px Arial, sans-serif;
+}
+html, body {
+  height: 100%;
+  background: #f2f2f2;
+}
+
+/* Layout */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+  text-align: center;
+  width: 90%;
+  max-width: 320px;
+}
+
+/* Content */
+.balance {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  width: 100%;
+  padding: 14px 0;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background .3s;
+}
+.deposit { background: #4caf50; }
+.deposit:hover { background: #45a049; }
+.withdraw { background: #f44336; }
+.withdraw:hover { background: #d32f2f; }
